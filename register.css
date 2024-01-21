@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Asset/Blacktheme.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    width: 420px;
+    background: rgba(0, 0, 0, 0.700);
+    color: white; 
+    border-radius: 14px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    margin-bottom: 5%;
+}
+
+.wrapper h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background: rgba(128, 128, 128, 0.750);
+    margin: 30px auto;
+    border-radius: 14px;
+    border: 1px solid black;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 14px;
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder{
+    color: black;
+}
+
+/*.input-box i {
+    position:absolute;
+    right: 42%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}*/
+
+.wrapper .btn2{
+    width: 100%;
+    height: 50px;
+    background:white ;
+    border: solid 1px black;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px bold;
+    color: black;
+    font-weight: bolder ;
+    margin-top: 10px;
+}
+.wrapper .btn1{
+    width: 100%;
+    height: 50px;
+    background:rgb(184, 15, 15) ;
+    border: solid 1px black;
+    outline: none;
+    border-radius: 40px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 10px;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.wrapper .register-link{
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bolder
+}
+
+.register-link a{
+    color: gray;
+    text-decoration: none;
+}
+
+.register-link a:hover{
+    text-decoration: underline;
+    color:rgba(0, 94, 255, 0.753);
+}
+
+.or{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.logo2{
+    width: 25px;
+}
